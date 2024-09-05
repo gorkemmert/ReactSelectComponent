@@ -28,7 +28,7 @@ function ExamplePage() {
   return (
    
      
-    <CustomSelect options={data} onChange={handleSelectChange} displayValue="username" keyValue="id" sortable placeholder="Select team member" value={selectedOption} isFilter isMultipleSelect displatMethod='userAvatar'/>
+    <CustomSelect options={data} onChange={handleSelectChange} displayValue="username" keyValue="id" sortable placeholder="Select team member" value={selectedOption} />
      
     
   );
